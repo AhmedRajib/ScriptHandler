@@ -39,7 +39,7 @@ class ViewController: UIViewController {
         view.addSubview(webView)
 
         // Load a website
-        if let url = URL(string: "https://dev.rockstreamer.com/?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NDEyOTcsInByb3ZpZGVyX2lkIjoicGhvbmUiLCJyb2xlIjowLCJ1c2VybmFtZSI6Iis4ODAxNzkzNzI2Nzc2IiwicGxhdGZvcm0iOiJpc2NyZWVuIiwicGFydG5lciI6IkdQX01ZR1AiLCJzdWJzY3JpYmUiOnRydWUsInBhY2thZ2VJbmZvIjp7Im5hbWUiOiJTdWJzY3JpYmUiLCJkZXNjcmlwdGlvbiI6IlN1YnNjcmliZSIsInByaWNlIjoiMzAiLCJ1bml0IjoiQkRUIiwiY291bnRyeUNvZGUiOiJCRCIsImNvbG9yQ29kZSI6bnVsbCwicHJvZHVjdElkIjoiR1BPQ0lTQ1JFRU5QMSIsInBheW1lbnRNZXRob2RUeXBlIjoic2VydmljZV9idW5kbGUiLCJleHBpcmVEYXRlIjoiMjAyNC0wMi0xNSJ9LCJpc1RWT0QiOnRydWUsInR2b2RFeHBpcmVEYXRlIjoiMjAyNC0wMi0xNSIsImlhdCI6MTcwNjQyOTk4NCwiZXhwIjoxNzA2NTE2Mzg0fQ.Yw3a1sq88G-vaOX0YnLgC_dZH5x3V5L80zcQX60x8endm970h-LTD4POkxIE632fIlmqDg9NUT0F10KL7_FqGs_fV9ZedQf6dOV3vSKYVaAWw7a7o9bvtoBNVz0hkaaUQvjanpjD9dlmr0RDKi3f66CdnPGtGaMydd-LKVOs36y46oBR7A_he0agLiR6vve_JQFCkavS0vAJi52V7ZenqBNrU4zeuJ89FtMh7RNQoQSjYudS4WFQtc5obSggWB9RpYzPAPz9uiT5V3wd_qBKIlWv5wFVcP02mJj7hc7BfhrDXyC1zo_Cyj9OpyWLUDNYe2kRBGKm45vm2ipHtCyk-6uROasPMQhv3vY8WelkeVRbkgUYH8wmUje8d8b71QRkF-TZgFnFnJWBSturN3EWM_s7bNmndW75UUAc5IsZVCJNgBzmL-OwWSnuWAcpbaLNxsNIqiQXG83RP4Bc7fvM4VvE9ltc-0I70W0SYQa60dpME6zCHjSmbzU-V2_gv9VIKsFxKWE7b5C4R2imMweC_fManMCl4_4P-bi_XmKf1uBXeOvns08oYaj4mGtih2vgVY4DJSk7zDBxruQm2r7CRlmk2MZHOMzvBhmAqdbYufQbYiE5QrNC_-LgioWGKUGmrffutfSfhN1KrQoT7_R9zqs0izOkRWqtj8qwqduTpyk") {
+        if let url = URL(string: "https://stage.rockstreamer.com?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NDEzOTMsInByb3ZpZGVyX2lkIjoicGhvbmUiLCJyb2xlIjowLCJ1c2VybmFtZSI6Iis4ODAxNzk4MDk5OTc3IiwicGxhdGZvcm0iOiJpc2NyZWVuIiwicGFydG5lciI6IkdQX01ZR1AiLCJzdWJzY3JpYmUiOmZhbHNlLCJwYWNrYWdlSW5mbyI6bnVsbCwiaXNUVk9EIjpmYWxzZSwidHZvZEV4cGlyZURhdGUiOiIxOTcwLTAxLTAxIiwiaWF0IjoxNzA5NjQzOTY4LCJleHAiOjE3MDk3MzAzNjh9.cG0BRZ5gdIGA5FvV2KruYNxt6x_SxuETTnXW-4SKwV01UdFdFAbDvU7D0k0tbD48gHNOFKMDxzKCtrNfdKwQTLdEjuiQEMl_jMXxs_ZixgEnmufiJswpYJb8nRfEKbRHWojg4hv0A1K8bPDwz9lJwd99AHjGD-AJUzNpr68-KYA3UHrv3GiCb659o_9mLfQo5q4cifh2VOSDPksBpGVyxPoYcK7ZF4TTve2Dqnb2xlG9lL86VhLnz2TvUK4eRfV1RK9HsRo8mMqnUM042iVpqgwXw3V0mbloRxqMOQNL4Fd8be17bDTgyKuPa4nmsg6X-7zpQxV5xvhpEedQ4QZvmST1EGlMeUOZ0cRLUoHWlubEkuqmFbci6Zf5BDdreSSE3JeDpqlzVEZNT517YnnNxul9zG9VZACsu7MX2MbAXGEhLsBhglZLmiUwLdcDcKCcIUkWcmf9YcuF63Un3CARhX1h6DGC5k-7YdzzM54R_epWIiHxEccW84N2lzkyRijFi8h5EZvFtXO46ug6kweYeOgYlxM5nPWv3fonhVHuXkWFaoA-8OMHO8sj7CFIRfGDdhYRRhVPHgfM3TICn2N5OruLRvwzQahRpMQqbsp2ai1MgCpEtsT3J2Gp2KtmKtjA86M62LDAmmncyGqp02tXatoVNiL9yywFI3iCZsDeCP0") {
             let request = URLRequest(url: url)
             webView.load(request)
         }
@@ -54,7 +54,7 @@ extension ViewController: WKScriptMessageHandler, WKNavigationDelegate {
         // MARK: - 1st Callback found
         
         if message.name == "onTokenStatus", let tokenStatusInfo = message.body as? [String: Any] {
-            if let status = tokenStatusInfo["status"] as? Bool,
+            if let status = tokenStatusInfo["status"],
                let message = tokenStatusInfo["message"] as? String {
                 print("Received token status message from website:")
                 print("Status: \(status)")
@@ -84,11 +84,10 @@ extension ViewController: WKScriptMessageHandler, WKNavigationDelegate {
                 // Handle the message from JavaScript
                 if let body = message.body as? [String: Any] {
                     let eventName = body["name"] as? String
-                    let params = body["params"] as? [String]
-
+                    let params = body["paramsIOS"] as? [String: Any]
                     // Do something with the data received from JavaScript
                     print("Event Name: \(eventName ?? "")")
-                    print("Parameters: \(params ?? [])")
+                    print("Parameters: \(params ?? [:])")
                 
             }
         }
